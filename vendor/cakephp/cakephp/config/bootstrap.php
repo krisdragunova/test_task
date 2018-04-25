@@ -18,7 +18,7 @@ use Cake\Routing\Router;
 define('TIME_START', microtime(true));
 
 // @deprecated Backward compatibility with 2.x series
-class_alias('Cake\Utility\Text', 'Cake\Utility\String');
+class_alias('Cake\Utility\Text', 'Cake\Utility\Strings');
 
 require CAKE . 'basics.php';
 
