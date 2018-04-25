@@ -36,7 +36,7 @@ class Mysql extends \Cake\Database\Driver
         'username' => 'root',
         'password' => '',
         'database' => 'cake',
-        'port' => '3306',
+        'port' => '3307',
         'flags' => [],
         'encoding' => 'utf8',
         'timezone' => null,
