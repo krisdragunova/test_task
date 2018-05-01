@@ -21,6 +21,9 @@ class LinksTable extends Table
      */
     public function initialize(array $config)
     {
+        $this->belongsTo('contacts');
+        $this->belongsTo('categories');
+
         $this->table('links');
         $this->displayField('ID');
         $this->primaryKey('ID');
@@ -37,12 +40,12 @@ class LinksTable extends Table
         $validator
             ->add('ID', 'valid', ['rule' => 'numeric'])
             ->allowEmpty('ID', 'create')
-            ->add('id_category', 'valid', ['rule' => 'numeric'])
-            ->requirePresence('id_category', 'create')
-            ->notEmpty('id_category')
-            ->add('id_contact', 'valid', ['rule' => 'numeric'])
-            ->requirePresence('id_contact', 'create')
-            ->notEmpty('id_contact');
+            ->add('category_id', 'valid', ['rule' => 'numeric'])
+            ->requirePresence('category_id', 'create')
+            ->notEmpty('category_id')
+            ->add('contact_id', 'valid', ['rule' => 'numeric'])
+            ->requirePresence('contact_id', 'create')
+            ->notEmpty('contact_id');
 
         return $validator;
     }

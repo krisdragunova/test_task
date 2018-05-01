@@ -21,6 +21,8 @@ class TelephonesTable extends Table
      */
     public function initialize(array $config)
     {
+        $this->belongsTo('contacts');
+
         $this->table('telephones');
         $this->displayField('ID');
         $this->primaryKey('ID');
@@ -39,8 +41,8 @@ class TelephonesTable extends Table
             ->allowEmpty('ID', 'create')
             ->requirePresence('telephone', 'create')
             ->notEmpty('telephone')
-            ->add('id_contact', 'valid', ['rule' => 'numeric'])
-            ->allowEmpty('id_contact');
+            ->add('contact_id', 'valid', ['rule' => 'numeric'])
+            ->allowEmpty('contact_id');
 
         return $validator;
     }

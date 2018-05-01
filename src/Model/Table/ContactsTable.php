@@ -21,6 +21,10 @@ class ContactsTable extends Table
      */
     public function initialize(array $config)
     {
+        $this->hasOne('emails');
+        $this->hasOne('telephones');
+        $this->hasOne('links');
+
         $this->table('contacts');
         $this->displayField('name');
         $this->primaryKey('ID');
