@@ -33,7 +33,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
 </head>
-<body>
+<!--
     <header>
         <div class="header-title">
             <span><?= $this->fetch('title') ?></span>
@@ -43,6 +43,43 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <span><a target="_blank" href="http://api.cakephp.org/3.0/">API</a></span>
         </div>
     </header>
+    -->
+   <nav>
+      <ul class="topmenu">
+        <li><a href="/test10/Contacts/index" >Home</a>
+
+        </li>
+        <li><a href="">File</a>
+            <ul class="submenu">
+                <li><a href="">Import Phone Book</a></li>
+                <li><a href="">Export Phone Book</a></li>
+            </ul>
+        </li>
+        <li><a href="">Edit</a>
+            <ul class="submenu">
+                <li><a href="/test10/Contacts/add">Add</a></li>
+                <li><a href="">Edit</a></li>
+                <li><a href="">Delete</a></li>
+            </ul>
+        </li>
+        <li><a href="">Search</a>
+            <ul class="submenu">
+                    <li><a href="">By name/surname</a></li>
+                    <li><a href="">By telephone</a></li>
+                    <li><a href="">By Email</a></li>
+            </ul>
+        </li>
+      </ul>
+          <div id="menu">
+                    	<ul>
+                    		<li><a href="/test10/Contacts/index">Contacts</a></li>
+                    		<li><a href="/test10/Telephones/index">Telephones</a></li>
+                    		<li><a href="/test10/Emails/index">Emails</a></li>
+                    		<li><a href="/test10/Links/index">Categories</a></li>
+                    	</ul>
+                    </div>
+    </nav>
+
     <div id="container">
 
         <div id="content">
