@@ -49,24 +49,24 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <li><a href="/cakephpinst/Contacts/index" >Home</a>
 
         </li>
-        <li><a href="">File</a>
+        <li><a >File</a>
             <ul class="submenu">
-                <li><a href="">Import Phone Book</a></li>
-                <li><a href="">Export Phone Book</a></li>
+                <li><a >Import Phone Book</a></li>
+                <li><a >Export Phone Book</a></li>
             </ul>
         </li>
-        <li><a href="">Edit</a>
+        <li><a >Edit</a>
             <ul class="submenu">
                 <li><a href="add">Add</a></li>
-                <li><a href="">Edit</a></li>
-                <li><a href="">Delete</a></li>
+                <li><a >Edit</a></li>
+                <li><a >Delete</a></li>
             </ul>
         </li>
-        <li><a href="">Search</a>
+        <li><a >Search</a>
             <ul class="submenu">
-                    <li><a href="">By name/surname</a></li>
-                    <li><a href="">By telephone</a></li>
-                    <li><a href="">By Email</a></li>
+                    <li><a >By name/surname</a></li>
+                    <li><a >By telephone</a></li>
+                    <li><a >By Email</a></li>
             </ul>
         </li>
       </ul>
