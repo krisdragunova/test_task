@@ -82,8 +82,12 @@ class LinksController extends AppController
                 $this->Flash->error('The link could not be saved. Please, try again.');
             }
         }
+
+        $this->set('categories', $this->Links->find('all')->contain('categories'));
+        $this->set('contacts', $this->Links->find('all')->contain('contacts'));
+
         $this->set(compact('link'));
-        $this->set('_serialize', ['link']);
+        $this->set('_serialize', ['link','categories','contacts']);
     }
 
     /**

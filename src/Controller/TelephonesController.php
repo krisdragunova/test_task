@@ -73,6 +73,8 @@ class TelephonesController extends AppController
         $telephone = $this->Telephones->get($id, [
             'contain' => []
         ]);
+
+        $this->set('contacts', $this->Telephones->find('all')->contain('contacts'));
         if ($this->request->is(['patch', 'post', 'put'])) {
             $telephone = $this->Telephones->patchEntity($telephone, $this->request->data);
             if ($this->Telephones->save($telephone)) {
@@ -83,7 +85,7 @@ class TelephonesController extends AppController
             }
         }
         $this->set(compact('telephone'));
-        $this->set('_serialize', ['telephone']);
+        $this->set('_serialize', ['telephone','contacts']);
     }
 
     /**

@@ -81,8 +81,9 @@ class EmailsController extends AppController
                 $this->Flash->error('The email could not be saved. Please, try again.');
             }
         }
+        $this->set('contacts', $this->Emails->find('all')->contain('contacts'));
         $this->set(compact('email'));
-        $this->set('_serialize', ['email']);
+        $this->set('_serialize', ['email','contacts']);
     }
 
     /**
