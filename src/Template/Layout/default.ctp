@@ -46,7 +46,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     -->
    <nav>
       <ul class="topmenu">
-        <li><a href="/test10/Contacts/index" >Home</a>
+        <li><a href="/cakephpinst/Contacts/index" >Home</a>
 
         </li>
         <li><a href="">File</a>
@@ -72,10 +72,10 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
       </ul>
           <div id="menu">
                     	<ul>
-                    		<li><a href="/test10/Contacts/index">Contacts</a></li>
-                    		<li><a href="/test10/Telephones/index">Telephones</a></li>
-                    		<li><a href="/test10/Emails/index">Emails</a></li>
-                    		<li><a href="/test10/Links/index">Categories</a></li>
+                    		<li><a href="/cakephpinst/Contacts/index">Contacts</a></li>
+                    		<li><a href="/cakephpinst/Telephones/index">Telephones</a></li>
+                    		<li><a href="/cakephpinst/Emails/index">Emails</a></li>
+                    		<li><a href="/cakephpinst/Links/index">Categories</a></li>
                     	</ul>
                     </div>
     </nav>
