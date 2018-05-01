@@ -180,7 +180,7 @@ header .header-title {
 
 
 legend {
-  color:#15848F;
+  color: #666765;
 }
 
 .row {
@@ -189,13 +189,13 @@ legend {
 
 .actions.columns {
   margin-top:1rem;
-  border-left: 5px solid #15848F;
+  border-left: 5px solid #a7a7a7;
   padding-left: 15px;
   padding: 32px 20px;
 }
 
 .actions.columns h3 {
-  color:#15848F;
+  color: #b6b6b6;
 }
 
 .index table {
@@ -258,11 +258,11 @@ ul.pagination li.active a {
 }
 
 button {
-  background: #8D6E65;
+  background: #dcdcdc;
 }
 
 .form button:hover, .form button:focus {
-  background: #7A6058;
+  background: #ff0617;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.26) !important;
 }
 
