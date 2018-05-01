@@ -35,7 +35,12 @@ class ContactsController extends AppController
             'contain' => []
         ]);
         $this->set('contact', $contact);
-        $this->set('_serialize', ['contact']);
+        $this->set('telephones', $this->Contacts->find('all')->contain('telephones'));
+        $this->set('emails', $this->Contacts->find('all')->contain('emails'));
+        $this->set('links', $this->Contacts->find('all')->contain('links'));
+
+
+        $this->set('_serialize', ['contact','telephones','emails','links']);
     }
 
     /**

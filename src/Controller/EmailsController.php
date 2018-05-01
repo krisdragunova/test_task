@@ -35,7 +35,8 @@ class EmailsController extends AppController
             'contain' => []
         ]);
         $this->set('email', $email);
-        $this->set('_serialize', ['email']);
+        $this->set('contacts', $this->Emails->find('all')->contain('contacts'));
+        $this->set('_serialize', ['email','contacts']);
     }
 
     /**

@@ -35,7 +35,9 @@ class TelephonesController extends AppController
             'contain' => []
         ]);
         $this->set('telephone', $telephone);
-        $this->set('_serialize', ['telephone']);
+
+        $this->set('contacts', $this->Telephones->find('all')->contain('contacts'));
+        $this->set('_serialize', ['telephone','contacts']);
     }
 
     /**

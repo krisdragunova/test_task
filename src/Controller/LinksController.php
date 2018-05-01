@@ -35,7 +35,9 @@ class LinksController extends AppController
             'contain' => []
         ]);
         $this->set('link', $link);
-        $this->set('_serialize', ['link']);
+        $this->set('categories', $this->Links->find('all')->contain('categories'));
+        $this->set('contacts', $this->Links->find('all')->contain('contacts'));
+        $this->set('_serialize', ['link','categories','contacts']);
     }
 
     /**
