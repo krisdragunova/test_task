@@ -258,11 +258,11 @@ ul.pagination li.active a {
 }
 
 button {
-  background: #dcdcdc;
+  background: #d6d6d6;
 }
 
 .form button:hover, .form button:focus {
-  background: #ff0617;
+  background: #a7a7a7;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.26) !important;
 }
 
