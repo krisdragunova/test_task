@@ -18,7 +18,7 @@ class EmailsController extends AppController
      */
     public function index()
     {
-        $this->set('emails', $this->paginate($this->Emails));
+        $this->set('emails', $this->Emails->find('all')->contain('contacts'));
         $this->set('_serialize', ['emails']);
     }
 

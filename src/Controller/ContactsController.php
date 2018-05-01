@@ -18,7 +18,7 @@ class ContactsController extends AppController
      */
     public function index()
     {
-        $this->set('contacts', $this->paginate($this->Contacts));
+        $this->set('contacts',  $this->Contacts->find('all')->contain(['telephones','emails']));
         $this->set('_serialize', ['contacts']);
     }
 
