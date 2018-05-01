@@ -46,3 +46,63 @@ require - ROOT\config\bootstrap.php, line 187
 
 
 
+2018-04-25 18:38:35 Warning: Warning (2): The use statement with non-compound name 'PDO' has no effect in [C:\xampp\htdocs\cakephpinst\vendor\cakephp\debug_kit\config\bootstrap.php, line 20]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - CORE\src\Core\Plugin.php, line 389
+Cake\Core\Plugin::_includeFile() - CORE\src\Core\Plugin.php, line 389
+Cake\Core\Plugin::bootstrap() - CORE\src\Core\Plugin.php, line 314
+Cake\Core\Plugin::load() - CORE\src\Core\Plugin.php, line 175
+require - ROOT\config\bootstrap.php, line 187
+[main] - ROOT\webroot\index.php, line 27
+
+
+
+2018-04-29 05:25:14 Warning: Warning (2): The use statement with non-compound name 'PDO' has no effect in [C:\xampp\htdocs\cakephpinst\vendor\cakephp\debug_kit\config\bootstrap.php, line 20]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - CORE\src\Core\Plugin.php, line 389
+Cake\Core\Plugin::_includeFile() - CORE\src\Core\Plugin.php, line 389
+Cake\Core\Plugin::bootstrap() - CORE\src\Core\Plugin.php, line 314
+Cake\Core\Plugin::load() - CORE\src\Core\Plugin.php, line 175
+require - ROOT\config\bootstrap.php, line 187
+[main] - ROOT\webroot\index.php, line 27
+
+
+
+2018-04-29 05:25:22 Warning: Warning (2): The use statement with non-compound name 'PDO' has no effect in [C:\xampp\htdocs\cakephpinst\vendor\cakephp\debug_kit\config\bootstrap.php, line 20]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - CORE\src\Core\Plugin.php, line 389
+Cake\Core\Plugin::_includeFile() - CORE\src\Core\Plugin.php, line 389
+Cake\Core\Plugin::bootstrap() - CORE\src\Core\Plugin.php, line 314
+Cake\Core\Plugin::load() - CORE\src\Core\Plugin.php, line 175
+require - ROOT\config\bootstrap.php, line 187
+[main] - ROOT\webroot\index.php, line 27
+
+
+
+2018-05-01 11:13:07 Warning: Warning (2): The use statement with non-compound name 'PDO' has no effect in [C:\xampp\htdocs\cakephpinst\vendor\cakephp\debug_kit\config\bootstrap.php, line 20]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - CORE\src\Core\Plugin.php, line 389
+Cake\Core\Plugin::_includeFile() - CORE\src\Core\Plugin.php, line 389
+Cake\Core\Plugin::bootstrap() - CORE\src\Core\Plugin.php, line 314
+Cake\Core\Plugin::load() - CORE\src\Core\Plugin.php, line 175
+require - ROOT\config\bootstrap.php, line 187
+[main] - ROOT\webroot\index.php, line 27
+
+
+
+2018-05-01 11:13:13 Warning: Warning (2): The use statement with non-compound name 'PDO' has no effect in [C:\xampp\htdocs\cakephpinst\vendor\cakephp\debug_kit\config\bootstrap.php, line 20]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - CORE\src\Core\Plugin.php, line 389
+Cake\Core\Plugin::_includeFile() - CORE\src\Core\Plugin.php, line 389
+Cake\Core\Plugin::bootstrap() - CORE\src\Core\Plugin.php, line 314
+Cake\Core\Plugin::load() - CORE\src\Core\Plugin.php, line 175
+require - ROOT\config\bootstrap.php, line 187
+[main] - ROOT\webroot\index.php, line 27
+
+
+
