@@ -30,9 +30,10 @@
         </tr>
 -->
         <tr>
-            <th><?= h('ID') ?></th>
             <th><?= h('Name') ?></th>
             <th><?= h('Surname') ?></th>
+            <th><?= h('Telephone') ?></th>
+            <th><?= h('Email') ?></th>
             <th class="actions"><?= __('Actions') ?></th>
         </tr>
 
