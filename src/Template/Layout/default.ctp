@@ -57,7 +57,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         </li>
         <li><a href="">Edit</a>
             <ul class="submenu">
-                <li><a href="/cakephpinst/Contacts/add">Add</a></li>
+                <li><a href="add">Add</a></li>
                 <li><a href="">Edit</a></li>
                 <li><a href="">Delete</a></li>
             </ul>
